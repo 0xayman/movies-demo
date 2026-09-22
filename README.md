@@ -2,6 +2,8 @@
 > **منصة أفلام ومسلسلات سينمائية باشتراك رمزي عبر متجر سلة (Frontend Demo)**  
 > *A Netflix-style streaming platform demo integrated with Salla store nominal subscriptions.*
 
+🌐 **رابط الموقع المباشر (Live Demo):** [https://moive-house.vercel.app](https://moive-house.vercel.app)
+
 ---
 
 ## 🌟 فكرة المشروع (Project Overview)
