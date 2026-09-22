@@ -4,8 +4,8 @@ export const SALLA_PLANS: SallaPlan[] = [
   {
     id: 'salla-monthly',
     name: {
-      ar: 'الباقة الشهرية الأساسية',
-      en: 'Monthly Basic Plan'
+      ar: 'باقة موفي هاوس الشهرية',
+      en: 'MovieHouse Monthly Plan'
     },
     price: 9.99,
     period: {
@@ -39,8 +39,8 @@ export const SALLA_PLANS: SallaPlan[] = [
   {
     id: 'salla-vip-quarterly',
     name: {
-      ar: 'باقة VIP ربع سنوية (الأكثر طلباً)',
-      en: 'Quarterly VIP Plan (Most Popular)'
+      ar: 'باقة موفي هاوس VIP (ربع سنوية)',
+      en: 'MovieHouse VIP Quarterly Plan'
     },
     price: 24.99,
     period: {
@@ -77,8 +77,8 @@ export const SALLA_PLANS: SallaPlan[] = [
   {
     id: 'salla-annual-gold',
     name: {
-      ar: 'الباقة الذهبية العائلية السنوية',
-      en: 'Annual Family Gold Plan'
+      ar: 'باقة موفي هاوس الذهبية السنوية',
+      en: 'MovieHouse Annual Gold Plan'
     },
     price: 79.99,
     period: {

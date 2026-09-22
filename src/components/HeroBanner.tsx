@@ -69,7 +69,7 @@ export const HeroBanner: React.FC = () => {
           <div className="flex flex-wrap items-center gap-2.5">
             <span className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-brand-600/90 text-white text-xs font-black tracking-wider uppercase shadow-glow-red">
               <Sparkles className="w-3 h-3" />
-              {t('حصرياً على سلة فلكس', 'SallaFlix Exclusive')}
+              {t('حصرياً على موفي هاوس', 'MovieHouse Exclusive')}
             </span>
 
             <span className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-bold">

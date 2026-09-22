@@ -128,7 +128,7 @@ export const SallaSubscriptionModal: React.FC = () => {
               }`}
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>{t('باقات متجر سلة', 'Salla Store Plans')}</span>
+              <span>{t('باقات موفي هاوس', 'MovieHouse Plans')}</span>
             </button>
 
             <button

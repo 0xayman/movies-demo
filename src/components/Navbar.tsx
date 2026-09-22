@@ -74,7 +74,7 @@ export const Navbar: React.FC = () => {
     },
     { 
       id: 'salla-plans', 
-      label: t('باقات سلة', 'Salla Plans'), 
+      label: t('باقات موفي هاوس', 'MovieHouse Plans'), 
       icon: ShoppingBag, 
       highlight: true 
     },
@@ -102,14 +102,14 @@ export const Navbar: React.FC = () => {
               </div>
               <div className="flex flex-col">
                 <div className="flex items-center gap-1.5 font-black text-xl tracking-tight">
-                  <span className="text-white">SALLA</span>
-                  <span className="text-brand-500">FLIX</span>
+                  <span className="text-white">MOVIE</span>
+                  <span className="text-brand-500">HOUSE</span>
                   <span className="text-[10px] uppercase font-bold tracking-widest px-1.5 py-0.5 rounded bg-salla-light/20 text-salla-accent border border-salla-light/30">
                     {t('سلة', 'Salla')}
                   </span>
                 </div>
                 <span className="text-[10px] text-gray-400 font-medium -mt-1 hidden sm:block">
-                  {t('سينما باشتراك رمزي', 'Cinema for nominal fee')}
+                  {t('سينما باشتراك رمزي عبر سلة', 'Cinema for nominal fee via Salla')}
                 </span>
               </div>
             </button>
@@ -298,7 +298,7 @@ export const Navbar: React.FC = () => {
                       className="w-full text-start px-3 py-2 rounded-lg hover:bg-white/10 text-gray-200 flex items-center gap-2 transition-colors"
                     >
                       <ShoppingBag className="w-4 h-4 text-amber-400" />
-                      <span>{t('إدارة باقة سلة', 'Manage Salla Plan')}</span>
+                      <span>{t('باقات موفي هاوس', 'MovieHouse Plans')}</span>
                     </button>
 
                     <button

@@ -108,7 +108,7 @@ export const App: React.FC = () => {
                         className="flex-1 md:flex-initial px-5 py-2.5 rounded-xl bg-salla-light hover:bg-salla-accent text-black font-black text-xs shadow-glow-salla transition-all hover:scale-105 flex items-center justify-center gap-2"
                       >
                         <Zap className="w-4 h-4 fill-black" />
-                        <span>{subscription.isSubscribed ? t('إدارة باقة سلة', 'Manage Salla Plan') : t('عرض باقات سلة والاشتراك', 'View Salla Plans')}</span>
+                        <span>{subscription.isSubscribed ? t('إدارة باقة موفي هاوس', 'Manage MovieHouse Plan') : t('عرض باقات موفي هاوس والاشتراك', 'View MovieHouse Plans')}</span>
                       </button>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ export const App: React.FC = () => {
                 <Top10Row items={MEDIA_CATALOG} />
 
                 <MovieRow
-                  title={t('أعمال حصرية على سلة فلكس', 'SallaFlix Exclusives')}
+                  title={t('أعمال حصرية على موفي هاوس', 'MovieHouse Exclusives')}
                   items={MEDIA_CATALOG.filter(m => m.isExclusive)}
                 />
               </div>

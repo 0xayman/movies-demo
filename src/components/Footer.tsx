@@ -19,8 +19,8 @@ export const Footer: React.FC = () => {
                 <Play className="w-4 h-4 text-white fill-white" />
               </div>
               <div className="font-black text-lg tracking-tight text-white flex items-center gap-1">
-                <span>SALLA</span>
-                <span className="text-brand-500">FLIX</span>
+                <span>MOVIE</span>
+                <span className="text-brand-500">HOUSE</span>
                 <span className="text-[10px] px-1.5 py-0.5 rounded bg-salla-light/20 text-salla-accent border border-salla-light/30">
                   {t('سلة', 'Salla')}
                 </span>
@@ -67,14 +67,14 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Col 3: Salla Subscriptions */}
+          {/* Col 3: MovieHouse Plans */}
           <div className="space-y-3">
-            <h4 className="font-bold text-white text-sm uppercase tracking-wider">{t('اشتراكات متجر سلة', 'Salla Subscriptions')}</h4>
+            <h4 className="font-bold text-white text-sm uppercase tracking-wider">{t('باقات موفي هاوس', 'MovieHouse Plans')}</h4>
             <ul className="space-y-2">
               <li>
                 <button onClick={() => setIsSubscriptionModalOpen(true)} className="hover:text-white text-salla-light font-bold flex items-center gap-1.5 transition-colors">
                   <ShoppingBag className="w-3.5 h-3.5" />
-                  <span>{t('باقات الاشتراك الرمزي', 'Nominal Pricing Plans')}</span>
+                  <span>{t('باقات موفي هاوس (سلة)', 'MovieHouse Plans (Salla)')}</span>
                 </button>
               </li>
               <li>
@@ -131,7 +131,7 @@ export const Footer: React.FC = () => {
         {/* Bottom copyright line */}
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>
-            © {new Date().getFullYear()} SallaFlix. {t('جميع الحقوق محفوظة لمنصة الأفلام والمتجر في سلة.', 'All rights reserved.')}
+            © {new Date().getFullYear()} MovieHouse. {t('جميع الحقوق محفوظة لمنصة موفي هاوس ومتجرنا في سلة.', 'All rights reserved.')}
           </p>
           <div className="flex items-center gap-1 text-gray-400">
             <span>{t('صُمم بأعلى معايير الجودة والسرعة للجمهور العربي والخليجي', 'Crafted for Arabic & Gulf audiences')}</span>

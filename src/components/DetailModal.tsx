@@ -79,7 +79,7 @@ export const DetailModal: React.FC = () => {
               {item.isExclusive && (
                 <span className="px-2 py-0.5 rounded text-xs font-black bg-brand-600 text-white flex items-center gap-1 shadow-glow-red">
                   <Sparkles className="w-3 h-3" />
-                  {t('حصرياً على سلة فلكس', 'SallaFlix Exclusive')}
+                  {t('حصرياً على موفي هاوس', 'MovieHouse Exclusive')}
                 </span>
               )}
               <span className="px-2 py-0.5 rounded text-xs font-bold bg-white/15 backdrop-blur-md text-white border border-white/10">

@@ -66,11 +66,11 @@ export const SallaPlansView: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto space-y-4">
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-salla-light/20 text-salla-accent border border-salla-light/30 text-xs font-bold shadow-glow-salla">
           <ShoppingBag className="w-4 h-4" />
-          <span>{t('متجر سلة المعتمد • فكرة اشتراك رمزي وبسيط', 'Verified Salla Store • Nominal Subscription')}</span>
+          <span>{t('باقات موفي هاوس • متجر سلة المعتمد', 'MovieHouse Plans • Verified Salla Store')}</span>
         </div>
 
         <h1 className="text-3xl sm:text-5xl font-black text-white leading-tight">
-          {t('سينما في بيتك بمبلغ رمزي عبر سلة', 'Cinema at Home for a Nominal Fee via Salla')}
+          {t('باقات موفي هاوس (MovieHouse Plans)', 'MovieHouse Plans')}
         </h1>
 
         <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
